@@ -1,0 +1,14 @@
+<p>
+  login works!
+</p>
+<form>
+  UserID : <input type="text" name="usrname" [(ngModel)] = "userid" > <br>
+  Password : <input type="password" name="password" [(ngModel)]="pass" > <br>
+  <input type="button" value="Login" (click)="doShowDetails()" >
+  <p>
+    {{userid}}   {{pass}} <br>
+    {{result}}
+  </p>
+</form>
+
+

@@ -1,0 +1,8 @@
+<form>
+  User Name : <input type="text" name="name" [(ngModel)] = "user.name" > <br>
+  Country : <input type="text" name="country" [(ngModel)]="user.country" > <br>
+  <input type="button" value="Save" (click)="doSave()" >  
+</form>
+<p>
+  {{message}}  <br>    
+</p>

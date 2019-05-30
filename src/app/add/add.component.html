@@ -1,0 +1,13 @@
+<p>
+  add works!
+</p>
+<form>
+  First Number : <input type="number" name="fno" [(ngModel)] = "fn" > <br>
+  Second Number : <input type="number" name="sno" [(ngModel)]="sn" > <br>
+  <input type="button" value="Add" (click)="doAddition()" >
+  <p>
+    <br>
+    {{result}}
+  </p>
+</form>
+
